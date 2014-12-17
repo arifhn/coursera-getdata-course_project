@@ -1,6 +1,6 @@
-# set working directory to dataset (uncomment and change working dir to datasets dir, if needed)
 tmp_wd = getwd() # save current working dir
-setwd("~/bigdata/coursera-getdata-course_project/dataset")
+# set working directory to dataset (uncomment and change working dir to datasets dir, if needed)
+# setwd("~/bigdata/coursera-getdata-course_project/dataset")
 
 # read column names
 titles <- read.csv("features.txt", sep=" ", col.names=c("id","name"), stringsAsFactors=FALSE, header=FALSE)
